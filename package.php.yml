@@ -1,0 +1,40 @@
+name: jphp-animatefx-ext
+version: 1.0.1
+
+deps:
+  jphp-runtime: '*'
+  jphp-gui-ext: '*'
+
+devDeps:
+  jphp-core: '*'
+  dn-bundle-plugin: '*'
+
+config:
+  ignore:
+  - /sandbox/**
+  - /.idea/**
+  - /*.iml
+  - /.git/**
+  - /package.hub.yml
+  - /bundle/**
+  - /src-bundle/**
+  - /build/**
+  - /out/**
+
+gradle:
+  deps:
+    - "io.github.typhon0:AnimateFX:1.2.0"
+
+plugins:
+  - Gradle
+  - Hub
+  - Doc
+
+develnext-bundle:
+  version: 1.0.0
+  name: "AnimateFX"
+  author: "broelik"
+  icon: "develnext/bundle/animatefx/icon32.png"
+  description: "Пакет добавляет анимации для GUI компонентов"
+  group: "other"
+  class: "develnext\\bundle\\animatefx\\AnimateFXBundle"
