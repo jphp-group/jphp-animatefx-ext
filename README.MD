@@ -19,7 +19,7 @@ $anim = AnimationFX::play($animationName, $node, function(){
 
 [Список всех анимаций](https://github.com/Typhon0/AnimateFX/wiki/Animations)
 
-[Расширение для DevelNext](https://github.com/jphp-group/jphp-websocket-client/releases/latest)
+[Расширение для DevelNext](https://github.com/jphp-group/jphp-animatefx-ext/releases)
 
 [Venity](https://vk.com/venity)
 
