@@ -1,5 +1,5 @@
 name: jphp-animatefx-ext
-version: 1.0.1
+version: 1.0.2
 
 deps:
   jphp-runtime: '*'
@@ -18,8 +18,13 @@ config:
   - /package.hub.yml
   - /bundle/**
   - /src-bundle/**
-  - /build/**
+  - /build
   - /out/**
+  - /examples/**
+  - /screenshots/**
+  - /dn-sources/**
+  - /.gitignore
+  - /settings.gradle
 
 gradle:
   deps:

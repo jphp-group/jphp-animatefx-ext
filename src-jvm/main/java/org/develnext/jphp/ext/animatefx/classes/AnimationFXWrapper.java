@@ -107,8 +107,8 @@ public class AnimationFXWrapper extends BaseWrapper<AnimationFX> {
     }
     @Reflection.Signature
     public static AnimationFXWrapper play(Environment env, String type, Node node, Invoker callback){
-        AnimationFXWrapper wrapper = new AnimationFXWrapper(env, create(type, node));
-        wrapper.onFinished = callback;
+        AnimationFXWrapper wrapper = new AnimationFXWrapper(env, (ClassEntity)null);
+        wrapper.__construct(type, node, callback);
         wrapper.start();
         return wrapper;
     }
